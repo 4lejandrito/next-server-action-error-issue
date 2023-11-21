@@ -11,3 +11,5 @@
 * **Expected:** Nothing happens (there is a catch clause).
 * **Actual:** A client error next message is displayed.
 ![Unexpected client error](error.png)
+
+You can also run `npm test` to reproduce the issue automatically using cypress.

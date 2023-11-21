@@ -6,16 +6,19 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "build:static": "next build && next out"
+    "build:static": "next build && next out",
+    "test": "start-server-and-test dev http://localhost:3000 'cypress run'"
   },
   "dependencies": {
-    "next": "^14.0.4-canary.4",
+    "next": "14.0.3-canary.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@types/node": "20.9.2",
     "@types/react": "18.2.37",
+    "cypress": "^13.5.1",
+    "start-server-and-test": "^1.15.4",
     "typescript": "5.2.2"
   }
 }
